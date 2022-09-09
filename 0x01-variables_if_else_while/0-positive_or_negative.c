@@ -2,8 +2,7 @@
 
 #include <time.h>
 
-/* more headers goes there */
-
+#include <stdio.h>
 
 
 /**
@@ -18,14 +17,12 @@
 int main(void)
 
 {
-	int n;
+	int n = 7;
 
 
 	srand(time(0));
 
 	n = rand() - RAND_MAX / 2;
-
-	int n = 7;
 
 	if (n > 0)
 	printf("%d is positive\n", n);
