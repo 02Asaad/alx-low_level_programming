@@ -18,7 +18,7 @@ int main(void)
 
 {
 
-	char c = "Last digit of";
+	char ch = 'Last digit of'
 	int n = 58679;
 	int is = 9;
 
@@ -27,13 +27,13 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 5)
-	printf("%s %d %d and is greater than 5\n", c, n, is);
+	printf("%c %d %d and is greater than 5\n", ch, n, is);
 
 	if (n == 0)
-	printf("%s %d %d and is zero\n", c, n, is);
+	printf("%c %d %d and is zero\n", ch, n, is);
 
 	if (n < 6)
-	printf("%s %d %d  and is less than 6 and not 0\n", c, n, is);
+	printf("%c %d %d  and is less than 6 and not 0\n", ch, n, is);
 
 	return (0);
 }
