@@ -12,9 +12,10 @@
 int main(void)
 
 {
-	char ch = {a..z};
-
-	putchar(ch);
+	char c;
+	for (c = 'a'; c <= 'z'; ++c)
+	
+	putchar(c);
 
 	return (0);
 }
