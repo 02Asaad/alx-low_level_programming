@@ -16,11 +16,11 @@ int main(void)
 
 	for (c = 'a'; c <= 'z'; ++c)
 	{
-	if (c == 'e')
-	continue;
+		if (c == 'e')
+		continue;
 
-	if (c == 'q')
-	continue;
+		if (c == 'q')
+		continue;
 	}
 
 	putchar(c);
