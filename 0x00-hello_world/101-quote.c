@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /**
  * putchar - This C program is to print the below statements
@@ -12,9 +12,7 @@
 
 int main(void) {
 
-	char mg[] = "and that piece of art is useful\" -Dora Korpar, 2015-10-19";
-	
-	putchar(mg[]);
+	write("and that piece of art iis useful\" - Dora Korpar, 2015-10-59);
 	return (1);
 
 }
