@@ -1,24 +1,25 @@
 #include <stdio.h>
+
 /**
- * main - This programm is to print all possible
- * combinations of single-digit numbers.
+ * main - This program is to print single-digit
+ * numbers and seperated by ',' followed by 
+ * a space in an acsending order.
  *
- * use only "putchar" but printf, puts etc.
+ * Must use "putchar" only with max of 4.
  *
- * Return: always returnn a 0.
+ * Return: it should return to zero.
  */
 int main(void)
 
 {
-	int i;
+	for (y = 0; y < 10; ++y)
+	putchar(y);
+	if (y != 9)
 
-	for (i = 0; i < 10; ++i)
-	putchar(i);
-	if (i != 9)
-	{
 	putchar(',');
 	putchar(' ');
 
-	}
 	putchar('\n');
+	return (0);
+
 }
