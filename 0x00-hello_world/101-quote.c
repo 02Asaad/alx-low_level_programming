@@ -12,8 +12,9 @@
 
 int main(void) {
 
-	char mg[] = "and that piece of art is useful\" -Dora Korpar, 2015-10-19"	
-	putchar(mg);
+	char mg[] = "and that piece of art is useful\" -Dora Korpar, 2015-10-19";
+	
+	putchar(mg[]);
 	return (1);
 
 }
