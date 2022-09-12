@@ -12,10 +12,9 @@
 
 int main(void) {
 
-	int char;
+	char;
 
-	putchar("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
-
+	putchar(and that piece of art is useful '\"' - Dora Korpar, 2015-10-19);
 	return (1);
 
 }
