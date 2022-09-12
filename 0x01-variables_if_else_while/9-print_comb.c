@@ -2,7 +2,7 @@
 
 /**
  * main - This program is to print single-digit
- * numbers and seperated by ',' followed by 
+ * numbers and seperated by ',' followed by
  * a space in an acsending order.
  *
  * Must use "putchar" only with max of 4.
@@ -12,6 +12,8 @@
 int main(void)
 
 {
+	int y;
+
 	for (y = 0; y < 10; ++y)
 	putchar(y);
 	if (y != 9)
