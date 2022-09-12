@@ -12,9 +12,8 @@
 
 int main(void) {
 
-	char;
-
-	putchar(and that piece of art is useful '\"' - Dora Korpar, 2015-10-19);
+	char mg[] = "and that piece of art is useful\" -Dora Korpar, 2015-10-19"	
+	putchar(mg);
 	return (1);
 
 }
