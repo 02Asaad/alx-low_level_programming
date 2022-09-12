@@ -16,10 +16,10 @@ int main(void)
 
 	for (c = 'a'; c <= 'z'; ++c)
 	if (c == 'e')
-	continue;
+	  continue;
 
 	if (c == 'q')
-	continue;
+	  continue;
 
 	putchar(c);
 	putchar('\n');
