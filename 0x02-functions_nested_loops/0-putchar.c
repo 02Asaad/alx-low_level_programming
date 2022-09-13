@@ -1,5 +1,4 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
  * main - This program is about writing a
  * program that prints "_putchar" follow by a new line.
