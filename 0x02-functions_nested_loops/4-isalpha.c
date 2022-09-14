@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * _isalpha - this profram function is to check if c is a letter, lowercase or uppercase
+ * _isalpha - this profram function is to check if c is a letter,
+ * lowercase or uppercase
  * @c: is the int that will use for the argument of the function
  * Return: as always return 0
  */
