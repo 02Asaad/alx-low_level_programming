@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line - This function draws a straight line using 
+ * print_line - This function draws a straight line using
  * the characteer _.
  * @n: The number of _ characters to be printed.
  */
