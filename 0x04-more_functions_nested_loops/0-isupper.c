@@ -4,7 +4,8 @@
 
 /**
  * main - check for codes
- *
+ * _isupper - this fuction is used.
+ * @c: character integer.
  * Return: As alwayss, 0.
  */
 int _isupper(int c);
@@ -16,6 +17,6 @@ int _isupper(int c);
 	printf("%c", _isupper(int c));
 	return (1);
 	}
-	else 
+	else
 	return (0);
 }

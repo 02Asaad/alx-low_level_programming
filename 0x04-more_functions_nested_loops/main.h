@@ -7,6 +7,4 @@
 
 int_isupper(int c);
 
-#endif /* MAIN_H */ 
-
-
+#endif /* MAIN_H */
