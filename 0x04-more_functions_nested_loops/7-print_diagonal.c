@@ -3,19 +3,20 @@
 /**
  * print_diagonal - This function draws a
  * diagonal line using the / character.
- * @h: The number of / characters to be printed.
+ * @n: The number of / characters to be printed.
  */
 
-void print_diagonal(int h)
+void print_diagonal(int n)
 {
 	int len, space;
 
-	if (h > 0)
+	if (n > 0)
 	{
-	for (len = 0; len < h; len++)
+	for (len = 0; len < n; len++)
 	{
 	for (space = 0; space < len; space++)
 	_putchar(' ');
+	_putchar('\\');
 
 	if (len == n - 1)
 	continue;
